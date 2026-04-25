@@ -1,0 +1,16 @@
+import  java.util.Scanner;
+public class Bits{
+    public static void main(String[] args){
+        int n=5;
+        int pos=3;
+        int BitMask=1<<pos;
+        if((BitMask & n)==0){
+            System.out.println("bit was zero");
+
+
+        }else{
+            System.out.println("bit is one"); 
+        }
+
+    }
+}
